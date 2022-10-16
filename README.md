@@ -19,4 +19,10 @@ useEffect(() =>{
   }
   onComponentMount()
 }, [])
+
+
+// case 2
+useEffect(() =>{
+  // code here
+}, [state1, state2])
 ````
