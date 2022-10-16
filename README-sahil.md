@@ -15,7 +15,7 @@ Code
 // case 1
 useEffect(() =>{
   const onComponentMount = () => {
-    // code ehre
+    // code here
   }
   onComponentMount()
 }, [])
