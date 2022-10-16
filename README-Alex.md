@@ -1,7 +1,7 @@
 # Alex
-##Lifecycle
+## Lifecycle
 
-###Mounting
+### Mounting
 
 These methods are called in the following order when an instance of a component is being created and inserted into the DOM:
 
@@ -10,7 +10,7 @@ These methods are called in the following order when an instance of a component 
     render()
     componentDidMount()
     
-###Updating
+### Updating
 
 An update can be caused by changes to props or state. These methods are called in the following order when a component is being re-rendered:
 
@@ -21,20 +21,20 @@ An update can be caused by changes to props or state. These methods are called i
     componentDidUpdate()
 
 
-###Unmounting
+### Unmounting
 
 This method is called when a component is being removed from the DOM:
 
     componentWillUnmount()
 
-###Error Handling
+### Error Handling
 
 These methods are called when there is an error during rendering, in a lifecycle method, or in the constructor of any child component.
 
     static getDerivedStateFromError()
     componentDidCatch()
 
-###Other APIs
+### Other APIs
 
 Each component also provides some other APIs:
 
