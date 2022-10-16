@@ -21,8 +21,21 @@ useEffect(() =>{
 }, [])
 
 
+
 // case 2
+const [state1, setState1] = useState('Sahil Rajput')
+const [state2, setState2] = useState('Sahil Rajput')
+
 useEffect(() =>{
   // code here
 }, [state1, state2])
+
+
+
+// case 3
+const [state, setState] = useState({name: 'Sahil Rajput'})
+
+useEffect(() => {
+  // code here
+}, [state?.name])
 ````
