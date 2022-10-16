@@ -14,8 +14,8 @@ Code
 ```js
 // case 1
 useEffect(() =>{
-  const onComponentMount = () => {
-    // code here
+  const onComponentMount = async () => {
+    // code here (making this function async is optional)
   }
   onComponentMount()
 }, [])
